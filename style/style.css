@@ -8,7 +8,7 @@ body {
 }
 /* heading style */
 .container{
-    background-image: url('/images/Banner\ Image.png');
+    background-image: url(/images/Banner\ Image.png);
     width: 1320px;
     height: 600px;
     background-size: cover;
@@ -64,7 +64,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url('/images/Vectorrr.png');
+    background-image: url(/images/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 150px;
