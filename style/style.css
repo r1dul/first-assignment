@@ -1,0 +1,347 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+/* heading style */
+.container{
+    /* background-image: url('/images/resources/Banner\ Image.png'); */
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),  url('/images/resources/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: 40px auto;
+}
+.banner-title{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 145px;
+}
+.banner-title h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-title>div> h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+/* main body style */
+ /* discount part */
+.discount{
+    text-align: center;
+}
+.discount-info h1{
+    font-size: 88px;
+    color: #f00;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.discount-info h4{
+    font-size: 24px;
+    color: #f00;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.discount-info h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.discount img{
+    margin-top: 40px;
+    width: 802px;
+    height: 500px;
+}
+/* midnight party */
+.midnight-party{
+    width: 1320px;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("/images/resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 150px;
+    padding-left: 126px;
+}
+
+.midnight-party-btn{
+    border: none;
+    color: #ffffff;
+    background-color: transparent;
+    width: 103px;
+    height: 24px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.midnight-party h1{
+    font-size: 64px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.midnight-party h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+    color: #ffffff;
+}
+.new-year-2024{
+    display: flex;
+   margin-right: 110px;
+   justify-content: center;
+}
+/* invitation box style */
+.invitation-info{
+    width: 1320px;
+    height: 482px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 120px;
+
+}
+.invitation-text{
+    padding-top: 100px;
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+.invitation-btn{
+    border-radius: 10px;
+    border: none;
+    background-color: #f00;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-top: 64px;
+}
+/* new best offer box style */
+.new-best-offer{
+    display: flex;
+    align-items: center;
+    width: 1320px;
+    height: 485px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.best-offer-info h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #f00;
+}
+.best-offer-info h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.best-offer-info p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #07021199;
+}
+.new-best-offer-description{
+    padding-top: 120px;
+}
+
+.new-best-offer-description h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #f00;
+}
+.new-best-offer-description p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #07021199;
+}
+.new-best-offer-description img{
+    background-color: #ffffff;
+    padding-top: 45px;
+}
+.ellipse{
+    padding: 20px;
+    border-radius: 460px; 
+    border: 10px solid red;
+}
+/* holidays sale style */
+.holidays-info{
+ width: 1320px;
+ margin: 0 auto;
+}
+.holidays-info h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.holidays-description{
+    text-align: center;
+    margin-top: 120px;
+}
+.holidays-info h1{
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.holidays-info p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #07021199;
+}
+.holidays-image-item{
+    position: relative;
+   
+}
+.discount-image{
+    display: flex;
+    justify-content: end;
+    margin-top: 60px;
+}
+.group-75{
+    position: absolute;
+    width: 500px;
+    height: 470px;
+    bottom: 50px;
+    left: 100px;
+}
+.rectangle-2{
+    width: 1320px;
+    height: 230px;
+}
+.group-44{
+   
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 300px;
+}
+.rectangle-1{
+   
+  width: 429px;
+  height: 433px;
+}
+/* portfolio style */
+.product-collection {
+    width: 1320px;
+
+    margin: 0 auto;
+    margin-top: 140px;
+}
+.product-collection h4{
+    color:#f00;
+    font-size:25px;
+    font-weight: 400;
+    
+}
+.product-collection h1{
+    font-size: 50px;
+    margin:20px 0px;
+}
+.product-collection p{
+    color:#07021199;
+    margin-bottom: 30px;
+}
+.product-img{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    
+}
+.product-img img{
+    width: 424px;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* subscribe box style */
+.subscribe{
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+    margin-top: 140px;
+}
+.subscribe> div{
+    display: block;
+    padding: 80px 0px 0px 0px;
+}
+.group61{
+    text-align: center;
+}
+.subscribe-description{
+    text-align: center;
+}
+.subscribe-title{
+    font-size: 48px;
+}
+.subscribe-summary{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.input-type{
+    padding: 20px 70px;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-top: 40px;
+}
+.subscribe-btn{
+    padding: 20px 45px;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: white;
+    background-color: #f00;
+
+}
+.hvimage{
+    transition: all 0.3s ease 0s;
+}
+.hvimage:hover{
+    transform: scale(1.03);
+}
+/* footer */
+footer{
+    width: 1600px;
+    height: 609px;
+    background-color: #070211;
+    margin-top: 140px;
+    margin: 140px auto 0px;
+}
+.footer-description{
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px ;
+}
+.first-footer{
+    margin-left: 10%;
+}
+.first-footer1{
+    margin-right: 10%;
+}
+.footer-icon{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-icon img{
+    margin-top: 20px;
+    padding: 30px 15px;
+    
+}
+hr{
+    
+    width: 1320px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.15);
+}
