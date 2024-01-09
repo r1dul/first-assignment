@@ -7,15 +7,26 @@ body {
     font-family: "Inter", sans-serif;
 }
 /* heading style */
-.container{
-    background-image: url(/images/Banner\ Image.png);
+/* .container{
+    background-image: url(images/Banner\Image.png);
     width: 1320px;
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 40px auto;
+} */
+
+header{
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/images/Banner\ Image.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1320px;
+    margin: 0 auto;
 }
+
 .banner-title{
     color: #ffffff;
     text-align: center;
@@ -57,19 +68,19 @@ body {
     height: 500px;
 }
 /* midnight party */
-.midnight-party{
+/* .midnight-party{
     width: 1320px;
     margin: 0 auto;
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(/images/Vectorrr.png);
+    background-image: url(images/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 150px;
     padding-left: 126px;
-}
+} */
 
 .midnight-party-btn{
     border: none;
