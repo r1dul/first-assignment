@@ -17,7 +17,7 @@ body {
     margin: 40px auto;
 } */
 
-header{
+.header{
     background-image:url('/images/banner.png');
     background-position: center;
     background-size: cover;
@@ -25,6 +25,7 @@ header{
     height: 600px;
     width: 1320px;
     margin: 0 auto;
+    margin-top: 40px;
 }
 
 .banner-title{
@@ -68,19 +69,19 @@ header{
     height: 500px;
 }
 /* midnight party */
-/* .midnight-party{
+.midnight-party{
     width: 1320px;
     margin: 0 auto;
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(images/Vectorrr.png);
+    background-image: url('/images/vector.png');
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 150px;
     padding-left: 126px;
-} */
+}
 
 .midnight-party-btn{
     border: none;
@@ -323,7 +324,7 @@ header{
 }
 /* footer */
 footer{
-    width: 1600px;
+    width: 100%;
     height: 609px;
     background-color: #070211;
     margin-top: 140px;
