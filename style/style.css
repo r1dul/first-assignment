@@ -63,7 +63,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("/images/resources/Vectorrr.png");
+    background-image: url("images/resources/Vectorrr.png");
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 150px;
