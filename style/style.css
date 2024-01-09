@@ -9,7 +9,7 @@ body {
 /* heading style */
 .container{
     /* background-image: url('/images/resources/Banner\ Image.png'); */
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),  url('/images/resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),  url('images/resources/Banner\ Image.png');
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("/images/resources/vector.png");
+    background-image: url("images/resources/vector.png");
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 150px;
